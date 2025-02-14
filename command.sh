@@ -1,5 +1,5 @@
 #!/bin/bash
-
+df -kh
 git --version
 
 if [ $? -eq 0 ]; then
